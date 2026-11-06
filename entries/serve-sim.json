@@ -1,0 +1,13 @@
+{
+  "id": "serve-sim",
+  "displayName": "Simulator (serve-sim)",
+  "description": "Watch and tap a live iOS Simulator in the thread side panel while you and your agent build the app. Pick a device and press Start to embed serve-sim's own preview, with touch, keyboard, home, screenshots, recording and Safari Web Inspector. Agents start it with bb serve-sim and drive the same device with serve-sim's tap, type and button commands while you watch. Requires an Apple Silicon Mac with Xcode and Node.js 20+, and BB Desktop on that Mac; serve-sim downloads through npx on first start.",
+  "icon": { "url": "./icons/serve-sim-71671e69.svg" },
+  "screenshots": ["./screenshots/serve-sim/panel.png", "./screenshots/serve-sim/start.png"],
+  "overview": "./overview/serve-sim.md",
+  "tags": ["ios", "simulator", "xcode", "serve-sim", "mobile", "react-native", "expo", "side-panel"],
+  "author": { "name": "Navipro70", "github": "Navipro70", "url": "https://github.com/Navipro70" },
+  "category": "thread-content",
+  "secondaryCategories": ["code-and-reviews"],
+  "source": { "git": { "url": "https://github.com/Navipro70/bb-plugin-serve-sim.git", "range": "^0.1.0" } }
+}
